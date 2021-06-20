@@ -1,12 +1,28 @@
-.Form {
+.Form__left {
   background-color: #0095ff;
   height: 50%;
   width: 40%;
   border-radius: 50px;
   padding: 30px;
-  margin-top: 9%;
-  margin-left: 5%;
+  margin-top: 8%;
+  margin-left: 0%;
   color: white;
+}
+
+.Form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form__right {
+  width: 20%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 8%;
 }
 
 .Form__nameField {

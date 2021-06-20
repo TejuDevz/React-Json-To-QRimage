@@ -6,3 +6,9 @@
   background-color: #3d3d3d;
   height: 100vh;
 }
+
+.App__formQR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
